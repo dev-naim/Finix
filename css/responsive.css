@@ -1,0 +1,126 @@
+@media screen and (max-width: 992px) {
+    .hero-section {
+        z-index: 11;
+        color: #fff;
+        position: relative;
+        background-position: 80%;
+      }
+      .hero-section::after {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        background: rgba(0,0,0,0.5);
+        z-index: -1;
+      }
+      .hero-content h1{
+        color: #fff;
+      }
+      .hero-content p.lead {
+        color: #fff;
+      }
+      .hero-social ul li span {
+        color: #fff;
+      }
+      .hero-social ul li a {
+       color: #fff;
+      }
+      .hero-social ul li span::after {
+        background: #fff;
+      }
+      /* call to action start */
+      .call-action-bg .row .col-lg-7.border-end {
+        border-right: none !important;
+    }
+      /* call to action end */
+      .service-tab-item .nav-item{
+        flex-basis: 45%;
+        border-bottom: 2px solid #ddd;
+        margin: 1px 0;
+        padding: 10px 0;
+        transition: all 0.2s ease-in;
+      }
+      .service-tab-item .nav-item .nav-link {
+        margin: 0 auto;
+        text-align: center;
+    }
+      .service-icon {
+        text-align: center;
+      }
+      .service-tab-item li:hover {
+        border-bottom: 2px solid #e73a3e;
+      }
+
+      .service-tab-item .nav-item .nav-link.active::after {
+        display: none;
+      }
+      .service-items .nav-pills {
+          border-bottom: 0 solid transparent;
+          padding-bottom: 0;
+      }
+      .service-items .service-icon {
+
+        text-align: center;
+        margin: 0 auto;
+    }
+    /* Testmonial section */
+    .testmonial-content {
+      order: 2;
+    }
+    .testmonial-image {
+      order: 1;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+  .mt-8 {
+    margin-top: 1.5rem;
+  }
+  .service-tab-item .nav-item{
+    flex-basis: 100%;
+
+  }
+  .service-tab-item .nav-item .nav-link {
+    margin: 0 0;
+    text-align: left;
+}
+.service-items .service-icon {
+
+  text-align: center;
+  margin: 0 0;
+}
+/* team section */
+.team-section > .row {
+  text-align: center;
+}
+}
+
+/* 576px down */
+@media screen and (max-width: 576px) {
+  .text-xsm-center {
+    text-align: center;
+  }
+  .mt-xsm-4 {
+    margin-top: 25px;
+  }
+  .mt-8 {
+    margin-top: 1.5rem;
+  }
+  .mt-sm-0 {
+    margin-top: 0;
+  }
+  /* our-company-values-section */
+  .our-company-values-section .row .values-catagory{
+    order: 2;
+  }
+  .our-company-values-section .row .values-image{
+    order: 1;
+  }
+  /* team section */
+  .team-section .row {
+    text-align: center;
+  }
+}
